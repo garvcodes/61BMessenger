@@ -17,10 +17,10 @@ const Auth = () => {
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Image
-          height="48"
-          width="48"
+          height="250"
+          width="250"
           className="mx-auto w-auto"
-          src="/images/logo.png"
+          src="/images/bee-removebg-preview.png"
           alt="Logo"
         />
         <h2 
@@ -33,10 +33,10 @@ const Auth = () => {
             text-gray-900
           "
           >
-            Sign in to your account
+            Sign in with your Berkeley Email
         </h2>
       </div>
-      <AuthForm /
+      <AuthForm />
   </div>
   )
 }
